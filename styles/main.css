@@ -76,11 +76,11 @@ body {
 
 /* reviews */
 .carousel-div {
-  background-color: rgb(253, 206, 118);
+  background-color: rgba(255, 182, 45, 0);
   border-radius: 20px;
 }
 .card {
-  background-color: white;
+  background-color: rgba(255, 182, 45, 0);
   border: none;
   /* margin: 2rem 0px 3rem; */
   border-radius: 30px;
