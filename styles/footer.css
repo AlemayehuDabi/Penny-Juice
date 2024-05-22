@@ -1,0 +1,34 @@
+/*footer*/
+.footer {
+  background-image: url("main-img/Orange-Juice-Splash-PNG-Clipart.png");
+}
+.footer-text-para {
+  font-family: "Josefin Slab", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.line-bottom {
+  border: 1px solid;
+}
+.img-logo-bottom {
+  width: 7rem;
+  height: 7rem;
+}
+.footer-afterline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foot-title-para {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 22px;
+}
+.icons-footer {
+  display: flex;
+}
+.icons-footer button {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}

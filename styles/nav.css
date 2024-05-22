@@ -1,0 +1,53 @@
+/*NavBar*/
+.navbar {
+  transition: all 0.3s;
+  font-family: "Josefin Slab", sans-serif;
+}
+.navbar-toggle {
+  background-color: rgb(255, 197, 89);
+}
+.fixed-nav {
+  background-color: rgb(255, 197, 89);
+}
+.fixed-nav-height {
+  height: 60px;
+}
+.navbar-brand {
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+.nav-link {
+  font-family: "Josefin Slab", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 3px;
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: black;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  opacity: 0;
+}
+.nav-link:hover::after {
+  opacity: 1;
+}
+.img-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.btn {
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid black;
+}
+.btn:hover {
+  background-color: rgba(255, 0, 0, 0.3);
+  color: white;
+}
