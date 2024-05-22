@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Poetsen+One&display=swap");
+
+body {
+  background-image: url("main-img/Orange-Juice-Splash-PNG-Clipart.png");
+  background-color: rgba(255, 184, 53, 0.3);
+}
+
+/*HeroSection*/
+.hero-section {
+  border-radius: 40px;
+  background-color: rgba(255, 182, 45, 0.3);
+  margin-top: 107px;
+  background-image: url("main-img/download-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.hero-brand {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.hero-text {
+  font-family: "Josefin Slab", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+.hero-img {
+  width: 28rem;
+  height: 30rem;
+  border-radius: 4%;
+}
+
+/* about */
+
+.about {
+  margin-top: 5rem;
+  background-image: url("main-img/img-zumo-naranja-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+
+.about-text {
+  /* background-color: rgb(255, 220, 156); */
+  border-radius: 30px;
+  margin-left: auto;
+}
+.about-title {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(53, 34, 0);
+  position: relative;
+  cursor: pointer;
+}
+.about-title::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0;
+}
+.about-title:hover::after {
+  opacity: 1;
+}
+.about-para {
+  font-size: 20px;
+  font-family: "Josefin Slab", sans-serif;
+  font-weight: 700;
+}
+
+/* reviews */
+.carousel-div {
+  background-color: rgb(253, 206, 118);
+  border-radius: 20px;
+}
+.card {
+  background-color: white;
+  border: none;
+  /* margin: 2rem 0px 3rem; */
+  border-radius: 30px;
+}
+
+.testimonials {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(53, 34, 0);
+  position: relative;
+  cursor: pointer;
+}
+
+.card-title {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 20px;
+}
+.card-text {
+  font-family: "Josefin Slab", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.card-img-top {
+  width: 22rem;
+  height: 20rem;
+  margin-left: 8.5rem;
+  margin-top: 2rem;
+}
+/*All*/
